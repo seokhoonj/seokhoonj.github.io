@@ -1,8 +1,10 @@
 ---
-title: "R sample"
+title: "R sample 2"
 author: "Seokhoon Joo"
-date: '2018-08-23'
-output: github_document
+date: '2018-08-24'
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
