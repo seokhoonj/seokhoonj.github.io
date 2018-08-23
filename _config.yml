@@ -40,7 +40,7 @@ nav:
   Home:           
     - '/blog/'
   Blog:           
-    - '/blog/'
+    - '/'
     - { R: '/blog/categories/#R' }
     - { Python: '/blog/categories/#Python' }
   About:          
