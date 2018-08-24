@@ -38,9 +38,9 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/blog/'
+    - '/blog/categories/'
   Blog:           
-    - '/blog/'
+    - '/'
     - { R: '/blog/categories/#R' }
     - { Python: '/blog/categories/#Python' }
   About:          
