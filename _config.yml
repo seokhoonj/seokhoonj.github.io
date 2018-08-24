@@ -1,10 +1,10 @@
 # Site Info
-title: Learning Life
+title: 'LeArN mOrE'
 tagline: 'LeArN mOrE'
 description: 'nothing'
 baseurl: ""
 url: http://seokhoonj.github.io
-# logo: '/public/logo.png'
+logo: '/public/logo.png'
 
 # Site configurations
 gems:
@@ -38,7 +38,7 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/blog/categories/'
+    - '/blog/'
   Blog:           
     - '/'
     - { R: '/blog/categories/#R' }
