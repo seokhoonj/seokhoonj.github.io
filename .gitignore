@@ -200,6 +200,9 @@ vignettes/*.pdf
 /*_cache/
 /cache/
 
+# Rmd file
+*.Rmd
+
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
