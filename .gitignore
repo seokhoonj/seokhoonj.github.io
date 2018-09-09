@@ -216,3 +216,22 @@ rsconnect/
 
 
 # End of https://www.gitignore.io/api/r,python
+
+#============================
+# added by a user
+#============================
+*.Rpoj
+*.R
+*.Rmd
+*.RData
+*.Rhistory
+*.gitignore
+*.csv
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.pdf
+*.html
+
+*.ipynb
