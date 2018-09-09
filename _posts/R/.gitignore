@@ -3,6 +3,7 @@
 .Rmd
 .RData
 .Rhistory
+.gitignore
 .csv
 .xls
 .xlsx
