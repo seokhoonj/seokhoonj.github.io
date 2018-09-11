@@ -232,6 +232,5 @@ rsconnect/
 *.xlsm
 *.xlsb
 *.pdf
-*.html
 
 *.ipynb
