@@ -220,9 +220,8 @@ rsconnect/
 #============================
 # added by a user
 #============================
-*.Rpoj
+*.Rproj.user
 *.R
-*.Rmd
 *.RData
 *.Rhistory
 *.gitignore
