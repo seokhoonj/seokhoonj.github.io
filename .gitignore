@@ -224,7 +224,6 @@ rsconnect/
 *.R
 *.RData
 *.Rhistory
-*.gitignore
 *.csv
 *.xls
 *.xlsx
