@@ -39,8 +39,8 @@ author:
 nav:
   Home:           
     - '/blog/'
-  Blog:           
-    - '/blog/'
+  categories:           
+    - '/blog/categories/'
     - { R: '/blog/categories/#R' }
     - { Python: '/blog/categories/#Python' }
     - { Vim: '/blog/categories/#Vim' }
