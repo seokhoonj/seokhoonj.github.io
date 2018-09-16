@@ -40,9 +40,10 @@ nav:
   Home:           
     - '/blog/'
   Blog:           
-    - '/'
+    - '/blog/'
     - { R: '/blog/categories/#R' }
     - { Python: '/blog/categories/#Python' }
+    - { Vim: '/blog/categories/#Vim' }
   About:          
     - '/about/'
   Github Project: 
