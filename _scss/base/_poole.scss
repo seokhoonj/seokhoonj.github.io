@@ -159,7 +159,6 @@ code {
   color: #bf616a;
   background-color: #f9f9f9;
   border-radius: 3px;
-  border-top: 1px solid #eee;
 }
 pre {
   display: block;
@@ -171,10 +170,10 @@ pre {
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre-wrap;
-  white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
+  border: 1px; // added
 }
 pre code {
   padding: 0;
