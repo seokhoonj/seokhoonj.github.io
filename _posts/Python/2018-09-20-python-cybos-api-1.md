@@ -38,16 +38,16 @@ kospiCode = list(CpCodeMgr.GetStockListByMarket(1))
 kosdaqCode = list(CpCodeMgr.GetStockListByMarket(2))
 
 kospiList = pd.DataFrame({'groupcode': '001', 
-                                       'groupname': '종합주가지수', 
-                                       'code': list(kospiCode), 
-                                       'name': np.arange(len(kospiCode)), 
-                                       'fullcode': np.arange(len(kospiCode))},
+                          'groupname': '종합주가지수', 
+                          'code': list(kospiCode), 
+                          'name': np.arange(len(kospiCode)), 
+                          'fullcode': np.arange(len(kospiCode))},
                          columns=['groupcode', 'groupname', 'code', 'name', 'fullcode'])
 kosdaqList = pd.DataFrame({'groupcode': '201', 
-                                          'groupname': '(코스닥)종합', 
-                                          'code': list(kosdaqCode), 
-                                          'name': np.arange(len(kosdaqCode)), 
-                                          'fullcode': np.arange(len(kosdaqCode))},
+                           'groupname': '(코스닥)종합', 
+                           'code': list(kosdaqCode), 
+                           'name': np.arange(len(kosdaqCode)), 
+                           'fullcode': np.arange(len(kosdaqCode))},
                          columns=['groupcode', 'groupname', 'code', 'name', 'fullcode'])
 
 # concat kospi / kosdaq                       
