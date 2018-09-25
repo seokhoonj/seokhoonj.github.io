@@ -44,6 +44,7 @@ nav:
     - { R: '/blog/categories/#R' }
     - { Python: '/blog/categories/#Python' }
     - { Vim: '/blog/categories/#Vim' }
+    - { Math: '/blog/categories/#Math' }
   About:          
     - '/about/'
   Github Project: 
