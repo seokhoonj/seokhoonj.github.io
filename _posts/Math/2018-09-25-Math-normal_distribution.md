@@ -10,6 +10,6 @@ comments: false
 정규분포의 유도
 -------------
 
-정규분포(Gaussian distribution)
+정규분포(Gaussian distribution)  
 $ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $
 
