@@ -14,5 +14,5 @@ comments: false
 <div style="text-align:center"><p>$$ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $$</p></div>
 
 가우스적분(Gaussian integrals)
-<div style="text-align:center"><p>$$ \int\limits_0^{\infty}e^{\pi} = \sqrt{\pi} $$</p></div>
+<div style="text-align:center"><p>$$ \int_infty^{\infty} e^{-x^2} dx = \sqrt{\pi} $$</p></div>
 
