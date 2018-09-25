@@ -10,6 +10,9 @@ comments: false
 정규분포의 유도
 -------------
 
-정규분포(Gaussian distribution)  
-<div style="text-align:center"><p>$ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $</p></div>
+정규분포(Normal distribution)  
+<div style="text-align:center"><p>$$ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $$</p></div>
+
+가우스적분(Gaussian integrals)
+<div style="text-align:center"><p>$$ \int\limits_0^{\infty}e^{\pi} = \sqrt{\pi} $$</p></div>
 
