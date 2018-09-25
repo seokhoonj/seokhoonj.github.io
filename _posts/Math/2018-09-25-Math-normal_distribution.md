@@ -11,5 +11,5 @@ comments: false
 -------------
 
 정규분포(Gaussian distribution)  
-$ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $
+<div style="text-align:center"><p>$ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $</p></div>
 
