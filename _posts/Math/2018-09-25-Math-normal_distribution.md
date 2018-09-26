@@ -17,3 +17,5 @@ comments: false
 1. 다음 함수를 적분해보자.
 \\( \int\_{-\infty}^{+\infty} e^{-x^2} dx = \sqrt{\pi} \\)
 
+2. 바로 적분이 불가능하므로 양 변을 제곱하는 식으로 문제를 변형해보자.
+\\( \int\_{-\infty}^{+\infty}\int\_{-\infty}^{+\infty} e^{-x^2} e^{-y^2} = pi \\)
