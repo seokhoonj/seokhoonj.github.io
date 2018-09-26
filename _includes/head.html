@@ -30,15 +30,17 @@
   <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"> </script>
   <script type="text/x-mathjax-config">
 MathJax.Hub.Config( { 
+					  extensions: ["tex2jax.js"],
 					  jax: ["input/TeX", "output/HTML_CSS"],
 					  tex2jax: { 
 								inlineMath: [ ['$','$'], ["\\(","\\)"] ], 
-								displayMath: [ ['$$', '$$'] ],
+								displayMath: [ ['$$', '$$'], ["\\(","\\)"] ],
 								processEscapes: true,
 								skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
 								}, 
+					  "HTML-CSS": { fonts: ["TeX"] },
 					  displayAlign: "center"
-					} ); // add HTML-CSS
+					} ); // added
   </script>
   {% endif %}
 </head>
