@@ -21,7 +21,7 @@ comments: false
 \\( \int\_{-\infty}^{+\infty} e^{-x^2} dx = ? \\)
 
 2. 바로 적분이 불가능하므로 양 변을 제곱하는 식으로 문제를 변형해보자.
-\\( \[ \int\_{-\infty}^{+\infty} e^{-x^2} dx \]^2 \\)
+\\( \left[ \int\_{-\infty}^{+\infty} e^{-x^2} dx \right]^2 \\)
 \\( \int\_{-\infty}^{+\infty}\int\_{-\infty}^{+\infty} e^{-x^2} e^{-y^2} dx dy = \int\_{-\infty}^{+\infty}\int\_{-\infty}^{+\infty} e^{-(x^2+y^2)} dx dy  \\)
 
 3. 이 식을 극좌표로 변환해보자.
