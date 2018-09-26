@@ -11,7 +11,7 @@ comments: false
 ---
 
 
-### 정규 분포 (Normal distribution)  
+### 정규 분포 \(Normal distribution\) 
 
 \\( f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} \\)
 
