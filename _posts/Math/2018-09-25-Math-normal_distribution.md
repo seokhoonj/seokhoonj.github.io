@@ -34,4 +34,4 @@ comments: false
 4. 최종 결과는 다음과 같다.
 \\( \int\_{-\infty}^{+\infty} e^{-x^2} dx = \sqrt{\pi} \\)
 
-<a name="극좌표">1</a>: $ x = r\cos\theta,\  y = r\sin\theta \ x^2 + y^2 = r^2 $
+<a name="극좌표">1</a>: $ x = r\cos\theta,\  y = r\sin\theta,\  x^2 + y^2 = r^2 $
