@@ -11,8 +11,10 @@ comments: false
 -------------
 
 정규분포(Normal distribution)  
-<div style="text-align:center"><p>$$ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $$</p></div>
+$$ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $$
 
 가우스적분(Gaussian integrals)
-<div style="text-align:center"><p>$$ \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi} $$</p></div>
+$$ \int\_{-\infty}^{\infty} e^{-x^2}\mathrm{d}x = \sqrt{\pi} $$
+
+
 
