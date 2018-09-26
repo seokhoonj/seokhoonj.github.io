@@ -14,7 +14,7 @@ comments: false
 $$ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $$
 
 가우스적분(Gaussian integrals)
-$$ \int\_{-\infty}^{\infty} e^{-x^2}\mathrm{d}x = \sqrt{\pi} $$
+$$ \int_{-\infty}^{\infty} e^{-x^2}\mathrm{d}x = \sqrt{\pi} $$
 
 
 
