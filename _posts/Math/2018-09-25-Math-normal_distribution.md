@@ -11,12 +11,11 @@ comments: false
 ---
 
 
-## 정규분포 (Normal distribution)  
+### 정규 분포 (Normal distribution)  
 
 \\( f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} \\)
 
-## 가우스적분 (Gaussian integrals) 
-
+### 가우스 적분 Gaussian integrals
 
 1. 다음 함수를 적분해보자.
 \\( \int\_{-\infty}^{+\infty} e^{-x^2} dx = ? \\)
