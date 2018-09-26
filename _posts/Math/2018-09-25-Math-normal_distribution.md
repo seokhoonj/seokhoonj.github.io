@@ -13,7 +13,7 @@ comments: false
 
 ## 정규 분포 \(Normal Distribution\) 
 
-\\( f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} \\)
+\\( f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-\mu)^2}{2\sigma^2}} \\)
 
 ## 가우스 적분 \(Gaussian Integrals\)
 
