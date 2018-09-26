@@ -13,7 +13,7 @@ comments: false
 정규분포(Normal distribution)  
 $$ f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-m)^2}{2\sigma^2}} $$
 
-가우스적분(Gaussian integrals)
+가우스적분(Gaussian integrals)  
 $$ \int{-\infty}^{\infty} e^{-x^2}\mathrm{d}x = \sqrt{\pi} $$
 
 
