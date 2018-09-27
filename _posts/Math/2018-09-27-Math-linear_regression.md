@@ -20,9 +20,10 @@ comments: false
 
 ## 선형기저함수 모델
 1. 가장 단순한 형태의 선형회귀모델은 입력 변수들의 선형 결합을 바탕으로 한 모델이다.
-\\( y(x, w) = w\_0 + w\_1x\_1 + ... + w\_Dx\_D  = \left(\begin{array}{ccc} w\_0 & w\_1 & \ldots & w\_D \end{array}\right) \left(\begin{array}{c} 1 \\\\ x\_1 \\\\ \vdots \\\\ x\_D \end{array}\right) = w^Tx \\)
+\\( y(x, w) = w\_0 + w\_1x\_1 + ... + w\_Dx\_D  = \left(\begin{array}{ccc} w\_0 & w\_1 & \ldots & w\_D \end{array}\right) \left(\begin{array}{c} 1 \\\\ x\_1 \\\\ \vdots \\\\ x\_D \end{array}\right) = w^T x \\)
 2. 선형회귀모델의 가장 중요한 성질은 바로 이 모델이 매개변수 $w\_0, \ldots, w\_D$의 선형함수라는 것이다. 이 한계점을 극복하기 위해서 다음처럼 입력 변수에 대한 고정 비선형 함수들의 선형 결합을 사용할 수 있다.
 \\( y(x, w) = w\_0 + \sum\_{j=1}^{M-1} w\_j\phi\_j(x) \\)
  - 여기서 $\phi\_j(x)$가 기저함수(basis function)다. 인덱스 $j$의 최대값이 $M-1$이므로 이 모델의 매개변수의 총 숫자는 $M$이다.
  - 편의를 위해서 추가적인 의사 '기저함수' $\phi\_0(x) = 1$을 정의하도록 하자. 그러면 다음과 같이 표현할 수 있다.
- \\( y(x, w) = \sum\_{j=1}^{M-1} w\_j\phi\_j(x) = w^t \phi(x) \\)
+ \\( y(x, w) = \sum\_{j=1}^{M-1} w\_j\phi\_j(x) = w^T \phi(x) \\)
+ - 많은 패턴 인식의 응용 사례에서는 원 데이터 변수에 __전처리__나 __특징 추출 과정__을 적용하게 된다.
