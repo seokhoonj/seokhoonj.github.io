@@ -29,4 +29,4 @@ comments: false
  - 많은 패턴 인식의 응용 사례에서는 원 데이터 변수에 <em><strong>전처리</strong></em>나 <em><strong>특징 추출 과정</strong></em>을 적용하게 된다. 만약 원래의 변수가 벡터 $x$라 한다면, 특징들은 기저 함수 ${\phi\_j(x)}$를 바탕으로 표현할 수 있다.
  - 비선형 기저 함수들을 사용하여 함수 $y(x,w)$가 입력 벡터 $x$에 대한 비선형 함수가 되도록 할 수 있다. 그럼에도 불구하고 이런 형태를 가진 함수들이 선형 모델이라고 불리는 이유는 이 함수들이 $w$에 대해서 선형 함수이기 때문이다.
  - 다양한 다른 함수들이 기저 함수로 사용될 수 있다. 예를 들어, 다음이 그 중 하나다.
- \\( \phi\_j(x) = exp\left\lbrace-\frac{(x-\mu\_j)^2}{2s^2}\right\rbrace  = exp\left\lbrace-\frac{1}{2}(\frac{x-\mu\_j}{s})^2\right\rbrace \\) 
+ \\( \phi\_j(x) = exp\left\lbrace-\frac{(x-\mu\_j)^2}{2s^2}\right\rbrace  = exp\left\lbrace-\frac{1}{2}\left(\frac{x-\mu\_j}{s}\right)^2\right\rbrace \\) 
