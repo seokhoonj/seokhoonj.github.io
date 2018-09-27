@@ -20,7 +20,7 @@ comments: false
 
 ## 선형기저함수 모델
 1. 가장 단순한 형태의 선형회귀모델은 입력 변수들의 선형 결합을 바탕으로 한 모델이다.
-\\( y(x, w) = w\_0 + w\_1x\_1 + ... + w\_Dx\_D  = \begin{pmatrix} w\_1 \\ w\_2 \\ \vdots \\ x\_n \end{pmatrix} \\)
+\\( y(x, w) = w\_0 + w\_1x\_1 + ... + w\_Dx\_D  = \begin{array} w\_1 \\ w\_2 \\ \vdots \\ x\_n \end{array} \\)
 
 
 
