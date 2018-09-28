@@ -25,4 +25,4 @@ comments: false
 2. $\mu = (\begin{array}{ccc} \mu\_1 & \ldots & \mu\_n \end{array})^T \text{: } D \times 1 \text{행렬}$ ($x$ 행렬로 부터 $\mu$ 행렬을 구하는 방법)
 3. $\Sigma \text{: } D \times D \text{ 공분산 행렬}$
 4. $\Sigma^{-1} \text{: } D \times D \text{ 공분산 행렬의 역행렬}$
-5. $\|\Sigma\| \text{ 는 공분산 행렬의 행렬식}$ 
+5. $\|\Sigma\| \text{: 공분산 행렬의 행렬식}$ 
