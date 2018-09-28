@@ -30,7 +30,4 @@ comments: false
 ## 관측된 데이터 $x$ 
 \\( \boldsymbol{x} = (\begin{array}{ccc} x\_1 & \ldots & x\_N \end{array})^T \\)
 
-\\( \begin{pmatrix} x\_{11}  & x\_{12}  & \ldots & x\_1D  \\\\
-                    x\_21  & x\_22  & \ldots & x\_2D  \\\\
-					\vdots & \vdots & \vdots & \vdots \\\\
-					x|N1   & x\_N2  & \ldots & x\_ND  \end{pmatrix} \\)
+\\( \begin{pmatrix} x\_{11} & x\_{12} & \ldots & x\_{1D}  \\\\ x\_{21} & x\_{22} & \ldots & x\_{2D}  \\\\ \vdots  & \vdots  & \vdots & \vdots   \\\\ x\_{N1} & x\_{N2} & \ldots & x\_{ND}  \end{pmatrix} \\)
