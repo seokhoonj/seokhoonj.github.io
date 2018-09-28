@@ -16,7 +16,8 @@ comments: false
 2. $\mu$는 평균, $\sigma^2$은 분산, $\sigma$는 표준편차, $\beta = \frac{1}{\sigma^2}$는 <strong><em>정밀도(precision)</em></strong>라고 한다. \(정밀도의 개념 알아보기.\)
 
 ## 가우시안 분포의 정규화
+
 ## 가우시안 분포의 기댓값
 
-# 연속 변수로 이루어진 D차원 벡터 x에 대한 가우시안 분포
+## 연속 변수로 이루어진 D차원 벡터 x에 대한 가우시안 분포
 \\( N(x\|\mu, \Sigma) = \frac{1}{(2\pi)^{D/2}}\frac{1}{\|\Sigma\|^{1/2}} exp\left\lbrace-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)\right\rbrace \\)
