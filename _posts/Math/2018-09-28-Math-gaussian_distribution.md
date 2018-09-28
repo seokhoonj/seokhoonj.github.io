@@ -15,6 +15,11 @@ comments: false
 1. 상기 식은 두 개의 매개변수 $\mu$와 $\sigma^2$에 의해 통제된다.
 2. $\mu$는 평균, $\sigma^2$은 분산, $\sigma$는 표준편차, $\beta = \frac{1}{\sigma^2}$는 <strong><em>정밀도(precision)</em></strong>라고 한다. \(정밀도의 개념 알아보기.\)
 
+## 가우시안 분포의 정규화
+## 가우시안 분포의 기댓값
+
+# 연속 변수로 이루어진 D차원 벡터 x에 대한 가우시안 분포
+\\( N(x\|\mu, \Sigma) = \frac{1}{(2\pi)^{D/2}}\frac{1}{\|\Sigma\|^{1/2}} exp\left\lbrace-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)\right\rbrace \\)
 \\( y(x, w) = w\_0 + w\_1x\_1 + ... + w\_Dx\_D  = \left(\begin{array}{ccc} w\_0 & w\_1 & \ldots & w\_D \end{array}\right) \left(\begin{array}{c} 1 \\\\ x\_1 \\\\ \vdots \\\\ x\_D \end{array}\right) = w^T x \\)
 \\( y(x, w) = w\_0 + \sum\_{j=1}^{M-1} w\_j\phi\_j(x) \\)
  \\( y(x, w) = \sum\_{j=1}^{M-1} w\_j\phi\_j(x) = w^T \phi(x) \\)
