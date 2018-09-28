@@ -28,6 +28,4 @@ comments: false
 5. $\|\Sigma\| \text{: 공분산 행렬의 행렬식}$ 
 
 ## 관측된 데이터 $x$ 
-\\( \begin{pmatrix} x\_{11} & x\_{12} & \ldots & x\_{1D}  \\\\ x\_{21} & x\_{22} & \ldots & x\_{2D}  \\\\ \vdots  & \vdots  & \vdots & \vdots   \\\\ x\_{N1} & x\_{N2} & \ldots & x\_{ND}  \end{pmatrix} = \left(\begin{array}{c} x\_1 \\\\ x\_2 \\\\ \vdots \\\\ x\_N \end{array}\right) \\
-\\( \boldsymbol{x} = (\begin{array}{ccc} x\_1 & \ldots & x\_N \end{array})^T \\)
-\\( \boldsymbol{x} = (\begin{array}{ccc} x\_1 & \ldots & x\_N \end{array})^T = (\begin{array}{c} x\_1 \\\\ x\_2 \\\\ \vdots \\\\ x\_N \end{array})  \\)
+\\( \begin{pmatrix} x\_{11} & x\_{12} & \ldots & x\_{1D}  \\\\ x\_{21} & x\_{22} & \ldots & x\_{2D}  \\\\ \vdots  & \vdots  & \vdots & \vdots   \\\\ x\_{N1} & x\_{N2} & \ldots & x\_{ND}  \end{pmatrix} = \left(\begin{array}{c} x\_1 \\\\ x\_2 \\\\ \vdots \\\\ x\_N \end{array}\right) \\)
