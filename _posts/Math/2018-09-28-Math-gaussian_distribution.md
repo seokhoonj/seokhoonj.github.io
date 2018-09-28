@@ -21,4 +21,4 @@ comments: false
 
 ## 연속 변수로 이루어진 D차원 벡터 x에 대한 가우시안 분포
 \\( N(x\|\mu, \Sigma) = \frac{1}{(2\pi)^{D/2}}\frac{1}{\|\Sigma\|^{1/2}} exp\left\lbrace-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)\right\rbrace \\)
-1. $x = (x\_1, \ldots, x\_n)^T \text{:n x 1 행렬}$
+1. $x = (x\_1, \ldots, x\_n)^T \text{: N x 1 행렬}$
