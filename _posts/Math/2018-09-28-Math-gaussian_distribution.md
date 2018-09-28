@@ -28,5 +28,5 @@ comments: false
 5. $\|\Sigma\| \text{: 공분산 행렬의 행렬식}$ 
 
 ## 관측된 데이터 $x$ 
-\\( \boldsymbol{x} = (\begin{array}{ccc} x\_1 & \ldots & x\_n \end{array})^T$ \\)
+\\( \boldsymbol{X} = (\begin{array}{ccc} x\_1 & \ldots & x\_n \end{array})^T \\)
 
