@@ -27,4 +27,6 @@ comments: false
 4. $\Sigma^{-1} \text{: } D \times D \text{ 공분산 행렬의 역행렬}$
 5. $\|\Sigma\| \text{: 공분산 행렬의 행렬식}$ 
 
-## 관측된 데이터 $x = (\begin{array}{ccc} x\_1 & \ldots & x\_n \end{array})^T$
+## 관측된 데이터 $x$ 
+\\( \boldsymbol{x} = (\begin{array}{ccc} x\_1 & \ldots & x\_n \end{array})^T$ \\)
+
