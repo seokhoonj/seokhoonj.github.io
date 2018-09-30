@@ -39,4 +39,4 @@ comments: false
 5. $x - \mu$의 notation ($D \times D$ 행렬)
 \\( \left(\begin{array}{c} x\_1^{(1)} \\\\ x\_2^{(1)} \\\\ \vdots \\\\ x\_D^{(1)} \end{array}\right) - \left(\begin{array}{c} \mu\_1 \\\\ \mu\_2 \\\\ \vdots \\\\ \mu\_D \end{array}\right) = \left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) \\)
 6. $(x - \mu)^T (x - \mu)$의 notation
-\\( \\left(\begin{array}{cccc} x\_1^{(1)}-\mu\_1 & x\_2^{(1)}-\mu\_2 & \ldots & x\_D^{(1)}-\mu\_D \end{array}\right) left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) \\)
+\\( \left(\begin{array}{cccc} x\_1^{(1)}-\mu\_1 & x\_2^{(1)}-\mu\_2 & \ldots & x\_D^{(1)}-\mu\_D \end{array}\right) left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) \\)
