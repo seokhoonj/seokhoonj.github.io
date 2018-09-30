@@ -11,4 +11,4 @@ comments: false
 ---
 
 ## 벡터의 내적
-\\( \vec{a} \cdot \vec{b} = \|\vec{a}\| \times \|\vec{b}\| \times \cos\theta \\)
+\\( \vec{a} \cdot \vec{b} = \|\vec{a}\| \times \|\vec{b}\| \times \cos\theta = \|\vec{b}\| \times \|\vec{a}\| \times \cos\theta \\)
