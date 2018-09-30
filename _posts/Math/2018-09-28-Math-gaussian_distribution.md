@@ -28,9 +28,9 @@ comments: false
 5. $\|\Sigma\| \text{: 공분산 행렬의 행렬식}$ 
 
 ## 관측된 데이터 집합 $X$ 
-1. 행렬의 notation
+1. $X$의  notation
 \\( \begin{pmatrix} x\_1^{(1)} & x\_2^{(1)} & \ldots & x\_D^{(1)} \\\\ x\_1^{(2)} & x\_2^{(2)} & \ldots & x\_D^{(2)} \\\\ \vdots & \vdots & \vdots & \vdots \\\\ x\_1^{(N)} & x\_2^{(N)} & \ldots & x\_D^{(N)} \end{pmatrix} = \left(\begin{array}{c} x^{(1)^T} \\\\ x^{(2)^T} \\\\ \vdots \\\\ x^{(N)^T} \end{array}\right) = \left(\begin{array}{cccc} x\_1 & x\_2 & \ldots & x\_D \end{array}\right) = X \\)
-2. 좀 더 보기 쉬운 $X^T X$의 notation
+2. $X^T X$의 관측치 기준 notation ($DxD$ 행렬)
 \\( \begin{pmatrix} x\_1^{(1)} & x\_1^{(2)} & \ldots & x\_1^{(N)} \\\\ x\_2^{(1)} & x\_2^{(2)} & \ldots & x\_2^{(N)} \\\\ \vdots  & \vdots & \vdots & \vdots \\\\ x\_D^{(1)} & x\_D^{(2)} & \ldots & x\_D^{(N)}  \end{pmatrix} \begin{pmatrix} x\_1^{(1)} & x\_2^{(1)} & \ldots & x\_D^{(1)} \\\\ x\_1^{(2)} & x\_2^{(2)} & \ldots & x\_D^{(2)} \\\\ \vdots  & \vdots  & \vdots & \vdots \\\\ x\_1^{(N)} & x\_2^{(N)} & \ldots & x\_D^{(N)} \end{pmatrix} = \left(\begin{array}{cccc} x^{(1)} & x^{(2)} & \ldots & x^{(N)} \end{array}\right) \left(\begin{array}{c} x^{(1)^T} \\\\ x^{(2)^T} \\\\ \vdots \\\\ x^{(N)^T} \end{array}\right) = X^T X \\) 
-3. feature 기준으로서의 notation
+3. $X^T X$의 feature 기준 notation ($DxD$ 행렬)
 \\( \begin{pmatrix} x\_1^{(1)} & x\_1^{(2)} & \ldots & x\_1^{(N)} \\\\ x\_2^{(1)} & x\_2^{(2)} & \ldots & x\_2^{(N)} \\\\ \vdots & \vdots & \vdots & \vdots \\\\ x\_D^{(1)} & x\_D^{(2)} & \ldots & x\_D^{(N)}  \end{pmatrix} \begin{pmatrix} x\_1^{(1)} & x\_2^{(1)} & \ldots & x\_D^{(1)} \\\\ x\_1^{(2)} & x\_2^{(2)} & \ldots & x\_D^{(2)} \\\\ \vdots  & \vdots  & \vdots & \vdots \\\\ x\_1^{(N)} & x\_2^{(N)} & \ldots & x\_D^{(N)} \end{pmatrix} = \left(\begin{array}{c} x\_1^T \\\\ x\_2^T \\\\ \vdots \\\\ x\_D^T \end{array}\right) \left(\begin{array}{cccc} x\_1 & x\_2 & \ldots & x\_D \end{array}\right) = X^T X \\) 
