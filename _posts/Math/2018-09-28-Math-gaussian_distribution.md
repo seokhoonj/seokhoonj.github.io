@@ -40,3 +40,4 @@ comments: false
 \\( \left(\begin{array}{c} x\_1^{(1)} \\\\ x\_2^{(1)} \\\\ \vdots \\\\ x\_D^{(1)} \end{array}\right) - \left(\begin{array}{c} \mu\_1 \\\\ \mu\_2 \\\\ \vdots \\\\ \mu\_D \end{array}\right) = \left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) \\)
 6. $(x^{(1)} - \mu)^T (x^{(1)} - \mu)$의 notation
 \\( \left(\begin{array}{cccc} x\_1^{(1)}-\mu\_1 & x\_2^{(1)}-\mu\_2 & \ldots & x\_D^{(1)}-\mu\_D \end{array}\right) \left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) = (x^{(1)} - \mu)^T (x^{(1)} - \mu) = \sum\_{i=1}^{D} (x\_i^{(1)} - \mu\_i)^2 \\)
+ - $\sqrt{\sum\_{i=1}^{D} (x\_i^{(1)} - \mu\_i)^2}$는 두 벡터의 유클리디안 거리이다. 
