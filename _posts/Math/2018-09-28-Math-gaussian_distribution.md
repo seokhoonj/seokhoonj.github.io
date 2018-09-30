@@ -41,5 +41,5 @@ comments: false
 6. $(x^{(1)} - \mu)^T (x^{(1)} - \mu)$의 notation
 \\( \left(\begin{array}{cccc} x\_1^{(1)}-\mu\_1 & x\_2^{(1)}-\mu\_2 & \ldots & x\_D^{(1)}-\mu\_D \end{array}\right) \left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) = (x^{(1)} - \mu)^T (x^{(1)} - \mu) = \sum\_{i=1}^{D} (x\_i^{(1)} - \mu\_i)^2 \\)
  - $\sqrt{\sum\_{i=1}^{D} (x\_i^{(1)} - \mu\_i)^2}$는 두 벡터의 유클리드 거리이다. (벡터 $x^{(j)}$와 벡터 $\mu$의 거리)
- - 일변량 함수의 경우 $\left(\frac{x-\mu}{\sigma}\right)^2$로 표현되는 것이 $(x^{(1)} - \mu)^T \Sigma^{-1} (x^{(1)} - \mu)$로 변경
+ - 일변량 함수의 경우 $\left(\frac{x^{(1)}-\mu}{\sigma}\right)^2$로 표현되는 것이 $(x^{(1)} - \mu)^T \Sigma^{-1} (x^{(1)} - \mu)$로 변경
 
