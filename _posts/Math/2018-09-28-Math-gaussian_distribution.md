@@ -40,8 +40,9 @@ comments: false
 \\( \left(\begin{array}{c} x\_1^{(1)} \\\\ x\_2^{(1)} \\\\ \vdots \\\\ x\_D^{(1)} \end{array}\right) - \left(\begin{array}{c} \mu\_1 \\\\ \mu\_2 \\\\ \vdots \\\\ \mu\_D \end{array}\right) = \left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) \\)
 6. $(x^{(1)} - \mu)^T (x^{(1)} - \mu)$의 notation
 \\( \left(\begin{array}{cccc} x\_1^{(1)}-\mu\_1 & x\_2^{(1)}-\mu\_2 & \ldots & x\_D^{(1)}-\mu\_D \end{array}\right) \left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) = (x^{(1)} - \mu)^T (x^{(1)} - \mu) = \sum\_{i=1}^{D} (x\_i^{(1)} - \mu\_i)^2 \\)
- - $\sqrt{\sum\_{i=1}^{D} (x\_i^{(1)} - \mu\_i)^2}$는 두 벡터의 유클리드 거리이다. (벡터 $x^{(j)}$와 벡터 $\mu$의 거리)
- - 일변량 함수의 경우 $\frac{(x^{(1)}-\mu)^2}{\sigma^2}$로 표현되는 것이 $(x^{(1)} - \mu)^T \Sigma^{-1} (x^{(1)} - \mu)$로 변경
- - 일변량 함수의 경우 $(x^{(1)} - \mu)^2$으로 평균과의 떨어진 거리를 계산하고 $\sigma^2$으로 나누어 길이를 선형변환 한다. 
+ - $\sqrt{\sum\_{i=1}^{D} (x\_i^{(j)} - \mu\_i)^2}$는 두 벡터의 유클리드 거리이다. (벡터 $x^{(j)}$와 벡터 $\mu$의 거리)
+ - 일변량 함수의 경우 $\frac{(x^{(j)}-\mu)^2}{\sigma^2}$로 표현되는 것이 $(x^{(j)} - \mu)^T \Sigma^{-1} (x^{(j)} - \mu)$로 변경
+ - 일변량 함수의 경우 $(x^{(j)} - \mu)^2$으로 평균과의 떨어진 거리를 계산하고 $\sigma^2$으로 나누어 길이를 선형변환 한다. 
  - 마찬가지로, 다변량의 경우에는 $\Sigma$를 기저벡터로 선형변환시키는 $\Sigma^{-1}$를 활용하여 $(x^{(j)} - \mu)$벡터를 선형변환한다. 
  - 예를 들어, $X^T X$가 공분산행렬이라면 $(X^T X)^{-1}$는 공분산행렬의 역행렬이고 $(\frac{1}{(2\pi)^{D/2}}\frac{1}{\|\Sigma\|^{1/2}} exp\left\lbrace-\frac{1}{2} (x^{(j)} - \mu)^T (X^T X)^{-1} (x^{(j)} - \mu)\right\rbrace$가 밀도가 될 것이다.
+7. $\Sigma^{-1}$의 notation 
