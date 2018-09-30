@@ -15,4 +15,4 @@ comments: false
 \\( \vec{a} \cdot \vec{b} = \sqrt{sum\_{i=1}^{D} a\_i^2 \times \vec{a} \cdot \vec{b} = \sqrt{sum\_{i=1}^{D} b\_i^2 \times \cos\theta \\)
 
 ## 코사인 법칙
-\\( a = c \cdot \cos\B + b \cdot \cos\C \\)
+\\( a = c \cdot \cosB + b \cdot \cosC \\)
