@@ -13,7 +13,7 @@ comments: false
 ## 벡터의 내적
 \\( \vec{a} \cdot \vec{b} = \|\vec{a}\| \times \|\vec{b}\| \times \cos\theta = \|\vec{b}\| \times \|\vec{a}\| \times \cos\theta \\)
 \\( \vec{a} \cdot \vec{b} = \sqrt{\sum\_{i=1}^{D} a\_i^2} \times \sqrt{\sum\_{i=1}^{D} b\_i^2} \times \cos\theta \\)
-\\( \vec{a} \cdot \vec{b} = a\_1 b\_1 + a\_2 b\_2 + \ldots + a\_D b\_D = \sum\_{i=1}^{D} a\_i b\_i \\)
+\\( \vec{a} \cdot \vec{b} = a\_1 b\_1 + a\_2 b\_2 + \ldots + a\_D b\_D = \sum\_{i=1}^{D} a\_i b\_i = a^T b \\)
 
 ## 코사인 법칙
 \\( a = c \cdot \cos{B} + b \cdot \cos{C} \\)
