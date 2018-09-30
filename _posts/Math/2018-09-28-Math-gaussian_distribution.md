@@ -37,4 +37,6 @@ comments: false
 4. $\mu$의 notation ($D \times D$ 행렬)
 \\( \begin{pmatrix} x\_1^{(1)} & x\_1^{(2)} & \ldots & x\_1^{(N)} \\\\ x\_2^{(1)} & x\_2^{(2)} & \ldots & x\_2^{(N)} \\\\ \vdots  & \vdots & \vdots & \vdots \\\\ x\_D^{(1)} & x\_D^{(2)} & \ldots & x\_D^{(N)} \end{pmatrix} \left(\begin{array}{c} \frac{1}{N} \\\\ \frac{1}{N} \\\\ \vdots \\\\ \frac{1}{N} \end{array}\right) = \left(\begin{array}{c} \mu\_1 \\\\ \mu\_2 \\\\ \vdots \\\\ \mu\_D \end{array}\right) \\)
 5. $x - \mu$의 notation ($D \times D$ 행렬)
-\\( \left(\begin{array}{c} x\_1^{(1)} \\\\ x\_2^{(1)} \\\\ \vdots \\\\ x\_D^{(1)} \end{array}\right) - \left(\begin{array}{c} \mu\_1 \\\\ \mu\_2 \\\\ \vdots \\\\ \mu\_D \end{array}\right) \left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) \\)
+\\( \left(\begin{array}{c} x\_1^{(1)} \\\\ x\_2^{(1)} \\\\ \vdots \\\\ x\_D^{(1)} \end{array}\right) - \left(\begin{array}{c} \mu\_1 \\\\ \mu\_2 \\\\ \vdots \\\\ \mu\_D \end{array}\right) = \left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) \\)
+6. $(x - \mu)^T (x - \mu)$의 notation
+\\( \\left(\begin{array}{cccc} x\_1^{(1)}-\mu\_1 & x\_2^{(1)}-\mu\_2 & \ldots & x\_D^{(1)}-\mu\_D \end{array}\right) left(\begin{array}{c} x\_1^{(1)}-\mu\_1 \\\\ x\_2^{(1)}-\mu\_2 \\\\ \vdots \\\\ x\_D^{(1)}-\mu\_D \end{array}\right) \\)
