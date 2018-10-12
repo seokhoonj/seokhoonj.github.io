@@ -13,5 +13,4 @@ comments: false
 다항함수
 \\( f(x) = a\_0 + a\_1(x-\alpha) + a\_2(x-\alpha)^2 + a\_3(x-\alpha)^3 + \ldots \\)
 
-\\( x = \alpha \\) 일때,
-\\( f(\alpha) = a\_0 \\) 
+\\( f(\alpha) = a\_0 (if, x = \alpha) \\) 
