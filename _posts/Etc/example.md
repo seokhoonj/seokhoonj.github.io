@@ -1,8 +1,8 @@
 ---
 layout: post
-title: SOA IFM Vocabulary
-category: Eng
-tags: [Eng, SOA, IFM]
+title: Study Vocabulary
+category: Etc
+tags: [Etc]
 published: true
 comments: true
 ---
