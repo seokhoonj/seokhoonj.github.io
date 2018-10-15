@@ -1,0 +1,37 @@
+---
+layout: post
+title: SOA IFM Vocabulary
+category: Eng
+tags: [Eng, SOA, IFM]
+published: true
+comments: true
+---
+
+Study Vocabulary
+----------------
+
+quadrants: 4분면
+neglect: 1. 방치하다. 2. 도외시하다, 등한하다 3. (해야 할 일을) 하지 않다.
+
+
+Efficent Market Hypothesis (EHM)
+---
+Based on EMH, stock price takes into account...
+|-----------------|:-----------------------------------------------------------
+|Weak form        | Past stock prices
+|-----------------|:-----------------------------------------------------------
+|Semi-strong form | All of the above, plus public/easily accessible information
+|-----------------|:-----------------------------------------------------------
+|Strong form      | All of the above, plus private/hard-to-get information
+|-----------------|:-----------------------------------------------------------
+
+siamese twins: two stocks with claims on same cash flows do not trade at same price
+political cycle: First and last years of political administration have better return
+Stock Split Effect: When a stock splits it has higher returns both before and after split announcement
+neglected firms: Small firms neglected by analysts have high returns
+
+
+Mean-Variance Portfolio Theory
+---
+
+\\( \bar{R} = \frac{\sum\_{i=1}{n}}{n} \\)
