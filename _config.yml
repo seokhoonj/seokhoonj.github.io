@@ -45,6 +45,7 @@ nav:
     - { Python: '/blog/categories/#Python' }
     - { Vim: '/blog/categories/#Vim' }
     - { Math: '/blog/categories/#Math' }
+    - { Django: '/blog/categories/#Django' }
     - { Etc: '/blog/categories/#Etc' }
   About:          
     - '/about/'
