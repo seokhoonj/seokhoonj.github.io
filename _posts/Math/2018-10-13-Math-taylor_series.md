@@ -13,10 +13,10 @@ comments: false
 다항함수
 \\( f(x) = c\_0 + c\_1(x-a) + c\_2(x-a)^2 + c\_3(x-a)^3 + \ldots + c\_n(x-a)^n + \ldots \\)
 
-\\( f'(x) = c\_1 + 2c\_2(x-a) + 3c\_3(x-a)^2 + \ldots + nc\_n(x-a)^{n-1} + \ldots \\) 
-
-\\( f''(x) = 2!c\_2 + 3!c\_3(x-a) + \ldots \\)
-
-\\( f'''(x) = 3!c\_3 + \ldots \\)
+\\( \begin{cases} 
+f'(x) = c\_1 + 2c\_2(x-a) + 3c\_3(x-a)^2 + \ldots + nc\_n(x-a)^{n-1} + \ldots
+\\\\ f''(x) = 2!c\_2 + 3 \times 2 c\_3(x-a) + \ldots
+\\\\ f'''(x) = 3!c\_3 + \ldots
+\end{cases} \\)
 
 \\( c\_n = \frac{f^(n)(a)}{n!} \\)
