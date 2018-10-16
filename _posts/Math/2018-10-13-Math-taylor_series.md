@@ -11,6 +11,8 @@ comments: false
 ---
 
 다항함수
-\\( f(x) = a\_0 + a\_1(x-\alpha) + a\_2(x-\alpha)^2 + a\_3(x-\alpha)^3 + \ldots \\)
+\\( f(x) = t\_0 + t\_1(x-a) + t\_2(x-a)^2 + t\_3(x-a)^3 + \ldots + t\_k(x-a)^k \\)
 
-\\( f(\alpha) = a\_0 \ \ (if,\  x = \alpha) \\) 
+\\( f'(x) = t\_1 + 2t\_2(x-a) + 3t\_3(x-a)^2 + \ldots + kt\_k(x-a)^{t-1} \\) 
+
+
