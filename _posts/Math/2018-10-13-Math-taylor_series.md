@@ -27,4 +27,8 @@ comments: false
 \\( \therefore f(x) = \sum\_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n \\)
 
 참고,
-\\( f(x) - f(a) = \sum\_{n=1}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n \\)
+\\( \begin{align}
+f(x) - f(a) & = \sum\_{n=1}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n 
+\\\\ & = \int\_{a}{x} f'(t) dt 
+\end{align} \\)
+
