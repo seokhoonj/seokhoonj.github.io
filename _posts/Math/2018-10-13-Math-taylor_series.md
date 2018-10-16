@@ -30,5 +30,6 @@ comments: false
 \\( \begin{align}
 f(x) - f(a) & = \sum\_{n=1}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n 
 \\\\ & = \int\_{a}^{x} f'(t) dt 
+\\\\ & = \int\_{a}^{x} (-1)(-f'(t)) dt 
 \end{align} \\)
 
