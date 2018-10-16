@@ -20,4 +20,4 @@ comments: false
 \\\\ \vdots
 \end{cases} \\)
 
-\\( c\_n = \frac{f^{(n)}(a)}{n!} \\)
+\\( \therefore c\_n = \frac{f^{(n)}(a)}{n!} \\)
