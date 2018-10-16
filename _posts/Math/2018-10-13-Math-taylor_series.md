@@ -14,9 +14,9 @@ comments: false
 \\( f(x) = c\_0 + c\_1(x-a) + c\_2(x-a)^2 + c\_3(x-a)^3 + \ldots + c\_n(x-a)^n + \ldots \\)
 
 \\( \begin{cases} 
-f^{1}(x) = c\_1 + 2c\_2(x-a) + 3c\_3(x-a)^2 + \ldots + nc\_n(x-a)^{n-1} + \ldots
-\\\\ f^{2}(x) = 2!c\_2 + 3 \times 2 c\_3(x-a) + \ldots
-\\\\ f^{3}(x) = 3!c\_3 + \ldots
+     f^{(1)}(x) = 1!c\_1 + 2c\_2(x-a) + 3c\_3(x-a)^2 + \ldots + nc\_n(x-a)^{n-1} + \ldots
+\\\\ f^{(2)}(x) = 2!c\_2 + 3 \times 2 c\_3(x-a) + \ldots
+\\\\ f^{(3)}(x) = 3!c\_3 + \ldots
 \\\\ \vdots
 \end{cases} \\)
 
