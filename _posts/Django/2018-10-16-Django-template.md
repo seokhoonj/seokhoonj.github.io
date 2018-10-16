@@ -22,7 +22,7 @@ comments: true
 1. default: 변수가 false 또는 비어 있는 경우, 지정된 default를 사용, 그렇지 않으면 변수의 값을 사용
  - value가 없으면 "nothing"
 
-```python
+```
 {{ value|default:"nothing" }}
 ```
 2. length: 값의 길이를 반환, 문자열과 목록에 대하여 사용
