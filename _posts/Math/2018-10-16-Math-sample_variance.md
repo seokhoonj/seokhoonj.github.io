@@ -57,4 +57,4 @@ comments: true
 \end{align} \\) 
 
 즉, 
-\\( \sigma^2} = \frac{n}{n - 1} s^2 \\)
+\\( \sigma^2 = \frac{n}{n - 1} s^2 \\)
