@@ -22,20 +22,20 @@ comments: true
 1. default: 변수가 false 또는 비어 있는 경우, 지정된 default를 사용, 그렇지 않으면 변수의 값을 사용
  - value가 없으면 "nothing"
 
-```html
+```python
 {{ value|default:"nothing" }}
 ```
 2. length: 값의 길이를 반환, 문자열과 목록에 대하여 사용
  - ['a', 'b', 'c', 'd']는 4
 
-```html
+```python
 {{ value|length }}
 ```
 
 3. striptags: 모든 HTML 태그를 제거
  - "<b>Joel</b> <button>is</button> a <span>slug</span>"는 "Joel is a slug"
 
-```html
+```python
 {{ value|striptags }}
 ```
 
@@ -43,7 +43,7 @@ comments: true
 태그
 ---
 1. for: 배열의 각 원소에 대하여 루프, 예를 들어, athlete_list에 들어 있는 선수의 목록을 출력하려면,
-```html
+```python
 <ul>
 {% for athlete in athlete_list %}
     <li>{{ athlete.name }}</li>
@@ -53,15 +53,16 @@ comments: true
 
 2. if and else: 변수를 평가하여, 변수가 "true"이면 블록의 컨텐츠를 표시
  - athlete_list가 비어있지 않다면, {{ athlete_list|length }} 변수에 의하여 선수의 숫자가 출력
-```html
+```python
 {% if athlete_list %}
     Number of athlete: {{ athlete_list|length }}
 {% else %}
     No athletes
 {% endif %}
+```
 
 3. if and else + for in endfor
-```html
+```python
 {% if athlete_list|length > 1 %}
    Team: {% for athlete in athlete_list %} ... {% endfor %}
 {% else %}
