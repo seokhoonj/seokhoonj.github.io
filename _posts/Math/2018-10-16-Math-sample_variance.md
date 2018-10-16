@@ -46,8 +46,7 @@ comments: true
 \\\\ & = \frac{1}{n} \[ \sum\_{k=1}^{n}(X\_k - \mu)^2 + 2(\mu - \bar{X})n(\bar{X} - \mu) + n(\mu - \bar{X})^2 \]
 \\\\ & = \frac{1}{n} \[ \sum\_{k=1}^{n}(X\_k - \mu)^2 - 2n(\mu - \bar{X})^2 + n(\mu - \bar{X})^2 \]
 \\\\ & = \frac{1}{n} \[ \sum\_{k=1}^{n}(X\_k - \mu)^2 - n(\bar{X} - \mu)^2 \]
-\\\\ & = n\sigma^2 - n \frac{\sigma^2}{n}
-\\\\ & = \frac{1}{n} (n - 1)\sigma^2
+\\\\ & = \sigma^2 - \frac{\sigma^2}{n}
 \\\\ & = \frac{(n - 1)}{n} \sigma^2
 \end{align} \\) 
 
