@@ -19,7 +19,7 @@ comments: true
 3. 표본평균의 평균
 \\( \begin{align} 
         \bar{X}\_\bar{X} & = E(\bar{X}) 
-\\\\ & = E(\sum \frac{X\_i}{n}) 
+\\\\ & = E(\sum\_{k=1}^{n} \frac{X\_k}{n}) 
 \\\\ & = E\[ \frac{X\_1 + X\_2 + \ldots + X\_n}{n}\] 
 \\\\ & = E(\frac{1}{n}X\_1) + E(\frac{1}{n}X\_2) + \ldots + E(\frac{1}{n}X\_n) 
 \\\\ & = \frac{1}{n}\mu\_x + \frac{1}{n}\mu\_x + \ldots + \frac{1}{n}\mu\_x 
