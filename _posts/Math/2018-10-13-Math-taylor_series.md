@@ -24,4 +24,4 @@ comments: false
 \\( \therefore c\_n = \frac{f^{(n)}(a)}{n!} \\)
 
 즉,
-\\( f(x) = \sum\_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n \\)
+\\( \therefore f(x) = \sum\_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n \\)
