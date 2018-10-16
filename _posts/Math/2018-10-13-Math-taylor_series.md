@@ -51,4 +51,9 @@ f(x) - f(a) & = \sum\_{n=1}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n
 | -    | $\vdots$      | $\vdots$                 |
 |------|---------------|--------------------------|
 
-\\( \left[ -(x-t)f'(t) - \frac{(x-t)^2}{2!}f^{(2)}(t) - \frac{(x-t)^3}{3!}f^{(3)}(t) - \ldots \right]\_{a}^{x} \\)
+\\( \begin{align} 
+\left[ -(x-t)f'(t) - \frac{(x-t)^2}{2!}f^{(2)}(t) - \frac{(x-t)^3}{3!}f^{(3)}(t) - \ldots \right]\_{a}^{x} 
+\\\\ & = \sum\_{n=1}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n
+\\)
+
+이와 같이 부부적분의 개념으로 증명하는 것도 가능하다.
