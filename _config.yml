@@ -47,10 +47,10 @@ nav:
     - { Math: '/blog/categories/#Math' }
     - { Django: '/blog/categories/#Django' }
     - { Etc: '/blog/categories/#Etc' }
+  Presentation:
+    - '/presentation/'
   About:          
     - '/about/'
-  System trading:
-    - '/presentation/'
   Github Project: 
     - 'https://github.com/seokhoonj/'
 
