@@ -15,7 +15,7 @@ title: Blog
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {% if post.tags %} | 
     {% for tag in post.tags %}
-    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a> <!-- slugify 소문자URL 슬러그로 변환 -->
     {% endfor %}
     {% endif %}
 

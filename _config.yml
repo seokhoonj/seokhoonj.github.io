@@ -49,6 +49,8 @@ nav:
     - { Etc: '/blog/categories/#Etc' }
   About:          
     - '/about/'
+  System trading:
+    - '/sysmtem_trading/'
   Github Project: 
     - 'https://github.com/seokhoonj/'
 
