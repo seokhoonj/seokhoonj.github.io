@@ -8,26 +8,24 @@
     <meta name="author" content="Seokhoon Joo" />
     <link href="css/presentation.css" rel="stylesheet" />
 
-      <!-- RSS -->
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-
-      {% if site.mathjax %}
-      <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"> </script>
-      <script type="text/x-mathjax-config">
-    MathJax.Hub.Config( { 
-                                              extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
-                                              jax: ["input/TeX", "output/HTML_CSS"],
-                                              tex2jax: { 
-                                                                    inlineMath: [ ['$','$'], ["\\(","\\)"] ], 
-                                                                    displayMath: [ ['$$', '$$'], ["\\(","\\)"] ],
-                                                                    processEscapes: true,
-                                                                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-                                                                    }, 
-                                              "HTML-CSS": { availableFonts: ["TeX"] },
-                                              displayAlign: "center"
-                                            } ); // added
-      </script>
-      {% endif %}
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"> </script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config( { 
+                                            extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
+                                            jax: ["input/TeX", "output/HTML_CSS"],
+                                            tex2jax: { 
+                                                                  inlineMath: [ ['$','$'], ["\\(","\\)"] ], 
+                                                                  displayMath: [ ['$$', '$$'], ["\\(","\\)"] ],
+                                                                  processEscapes: true,
+                                                                  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+                                                                  }, 
+                                            "HTML-CSS": { availableFonts: ["TeX"] },
+                                            displayAlign: "center"
+                                          } ); // added
+    </script>
 
 </head>
 
@@ -64,7 +62,7 @@
         <a href="127.0.0.1:8787/auth-sign-in">the goto plugin</a> 
         also allows you to specify non-linear navigation!
         </li>
-        <li>$\int\_{-infty}^{infty} e^{-x^2} dx$
+        <li>$\int\_{-\infty}^{\infty} e^{-x^2} dx$
             <ul>
             <li>continuously pressing Right Arrow</li>
             <li>continuously pressing Down Arrow</li>
