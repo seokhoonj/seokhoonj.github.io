@@ -48,7 +48,7 @@ nav:
     - { Django: '/blog/categories/#Django' }
     - { Etc: '/blog/categories/#Etc' }
   Presentation:
-    - '/presentation/'
+    - '/presentation/systemtrading/'
   About:          
     - '/about/'
   Github Project: 
