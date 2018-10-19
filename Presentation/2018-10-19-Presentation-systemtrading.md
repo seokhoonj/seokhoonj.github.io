@@ -1,3 +1,11 @@
+---
+layout: post
+title: System Trading
+category: Presentation
+tags: [Presentation, system trading]
+published: true
+comments: true
+---
 <!doctype html>
 <html lang="en">
 
