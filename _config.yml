@@ -51,8 +51,9 @@ nav:
     - { Math: '/blog/categories/#Math' }
     - { Django: '/blog/categories/#Django' }
     - { Etc: '/blog/categories/#Etc' }
-  Presentation:
-    - '/presentation/systemtrading/'
+    - { Presentation: '/blog/categories/#Presentation' }
+#  Presentation:
+#    - '/presentation/systemtrading/'
   About:          
     - '/about/'
   Github Project: 
