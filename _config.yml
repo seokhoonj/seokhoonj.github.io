@@ -1,9 +1,13 @@
 # Site Info
+#==================================
+# url: https://seokhoonj.github.io
+# baseurl: 
+# page path:
 title: 'LeArN mOrE'
 tagline: 'stay with problems longer'
 description: 'stay with problems longer'
-baseurl: ""
-url: http://seokhoonj.github.io
+baseurl: '/categories'
+url: 'http://seokhoonj.github.io'
 logo: '/public/logo.png'
 
 # Site configurations
