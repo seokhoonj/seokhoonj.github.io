@@ -73,7 +73,7 @@ nav:
     - { Django: '/blog/categories/#Django' }
     - { Etc: '/blog/categories/#Etc' }
   Presentation:
-    - '/presentation/'
+    - 'blog/categories/presentation/'
     - { systemtrading: '/presentation/systemtrading/' }
     - { example01: '/presentation/example01/' }
   About:          
