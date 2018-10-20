@@ -189,7 +189,7 @@ img.bg {
     transition:  opacity 2s;
 }
 
-#applepie-image {
+#id03-image {
     left: 0px;
     bottom: 0px;
 }
@@ -203,7 +203,7 @@ body.impress-on-overview #applepie-image {
     transition:  opacity 2s;
 }
 
-#icecream-image {
+#id04-image {
     right: 0px;
     top: 0px;
 }
@@ -217,7 +217,7 @@ body.impress-on-overview #icecream-image {
     transition:  opacity 2s;
 }
 
-#crisps-image {
+#id05-image {
     right: 0px;
     bottom: 0px;
 }
