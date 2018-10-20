@@ -14,8 +14,6 @@ logo: '/public/logo.png'
 # Site configurations
 gems:
   - jekyll-paginate
-#plugins:
-#  - jekyll-paginate
 markdown: kramdown
 kramdown:
   input: GFM
@@ -63,7 +61,7 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - ''
+    - '/blog/categories/'
   categories:           
     - '/blog/categories/'
     - { R: '/blog/categories/#R' }
