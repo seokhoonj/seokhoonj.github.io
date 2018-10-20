@@ -61,7 +61,7 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/blog/categories/'
+    - '/'
   categories:           
     - '/blog/categories/'
     - { R: '/blog/categories/#R' }
