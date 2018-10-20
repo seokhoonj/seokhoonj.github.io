@@ -3,8 +3,8 @@ layout: post
 title: R 정규표현식 - 자주 쓰는 표현
 category: R
 tags: [R, 정규표현식]
-published: false
-comments: false
+published: true
+comments: true
 ---
 
 R 정규표현식 - 자주 쓰는 표현
