@@ -38,20 +38,20 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
   {% if site.mathjax %}
-  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"> </script>
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>h
   <script type="text/x-mathjax-config">
-MathJax.Hub.Config( { 
-					  extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
-					  jax: ["input/TeX", "output/HTML_CSS"],
-					  tex2jax: { 
-								inlineMath: [ ['$','$'], ["\\(","\\)"] ], 
-								displayMath: [ ['$$', '$$'], ["\\(","\\)"] ],
-								processEscapes: true,
-								skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-								}, 
-					  "HTML-CSS": { availableFonts: ["TeX"] },
-					  displayAlign: "center"
-					} ); // added
+    MathJax.Hub.Config( { 
+                          extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
+                          jax: ["input/TeX", "output/HTML_CSS"],
+                          tex2jax: { 
+                                    inlineMath: [ ['$','$'], ["\\(","\\)"] ], 
+                                    displayMath: [ ['$$', '$$'], ["\\(","\\)"] ],
+                                    processEscapes: true,
+                                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+                                    }, 
+                          "HTML-CSS": { availableFonts: ["TeX"] },
+                          displayAlign: "center"
+                        } ); // added
   </script>
   {% endif %}
 
