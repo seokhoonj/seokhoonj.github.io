@@ -189,16 +189,16 @@ img.bg {
     transition:  opacity 2s;
 }
 
-#id03-image {
+#id01-image {
     left: 0px;
     bottom: 0px;
 }
 
-body.impress-on-applepie #applepie-image,
-body.impress-on-applepie-pro #applepie-image,
-body.impress-on-applepie-con #applepie-image,
-body.impress-on-conclusion #applepie-image,
-body.impress-on-overview #applepie-image {
+body.impress-on-id01 #id01-image,
+body.impress-on-id02 #id01-image,
+body.impress-on-id03 #id01-image,
+body.impress-on-conclusion #id01-image,
+body.impress-on-overview #id01-image {
     opacity: 0.7;
     transition:  opacity 2s;
 }
@@ -208,25 +208,25 @@ body.impress-on-overview #applepie-image {
     top: 0px;
 }
 
-body.impress-on-icecream #icecream-image,
-body.impress-on-icecream-pro #icecream-image,
-body.impress-on-icecream-con #icecream-image,
-body.impress-on-conclusion #icecream-image,
-body.impress-on-overview #icecream-image {
+body.impress-on-id04 #id04-image,
+body.impress-on-id05 #id04-image,
+body.impress-on-id06 #id04-image,
+body.impress-on-conclusion #id01-image,
+body.impress-on-overview #id01-image {
     opacity: 0.7;
     transition:  opacity 2s;
 }
 
-#id05-image {
+#id07-image {
     right: 0px;
     bottom: 0px;
 }
 
-body.impress-on-crisps #crisps-image,
-body.impress-on-crisps-pro #crisps-image,
-body.impress-on-crisps-con #crisps-image,
-body.impress-on-conclusion #crisps-image,
-body.impress-on-overview #crisps-image {
+body.impress-on-id07 #id07-image,
+body.impress-on-id08 #id07-image,
+body.impress-on-id09 #id07-image,
+body.impress-on-conclusion #id01-image,
+body.impress-on-overview #id01-image {
     opacity: 0.7;
     transition:  opacity 2s;
 }
