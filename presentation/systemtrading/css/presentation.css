@@ -211,8 +211,8 @@ body.impress-on-overview #id01-image {
 body.impress-on-id04 #id04-image,
 body.impress-on-id05 #id04-image,
 body.impress-on-id06 #id04-image,
-body.impress-on-conclusion #id01-image,
-body.impress-on-overview #id01-image {
+body.impress-on-conclusion #id04-image,
+body.impress-on-overview #id04-image {
     opacity: 0.7;
     transition:  opacity 2s;
 }
@@ -225,8 +225,8 @@ body.impress-on-overview #id01-image {
 body.impress-on-id07 #id07-image,
 body.impress-on-id08 #id07-image,
 body.impress-on-id09 #id07-image,
-body.impress-on-conclusion #id01-image,
-body.impress-on-overview #id01-image {
+body.impress-on-conclusion #id07-image,
+body.impress-on-overview #id07-image {
     opacity: 0.7;
     transition:  opacity 2s;
 }
