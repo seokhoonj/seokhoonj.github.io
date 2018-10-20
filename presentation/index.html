@@ -9,12 +9,12 @@ title: Categories
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
     {% endfor %}
   </div>
-  <hr/>
+  <hr/> <!--horizontal rules 수평선 긋기 태그 -->
   <div class="tags-expo-section">
-    {% for tag in site.pages %}
+    {% for tag in site.html_pages %}
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
     <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
+      {% for post in site.html_pages %} <!--tag[1] %}-->
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
         {{ post.title }}
