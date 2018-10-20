@@ -19,7 +19,7 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+      {{ site.title }} &middot; {{ site.tagline }} <!-- middle dot -->
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
@@ -38,7 +38,7 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
   {% if site.mathjax %}
-  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>h
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config( { 
                           extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
@@ -49,7 +49,14 @@
                                     processEscapes: true,
                                     skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
                                     }, 
-                          "HTML-CSS": { availableFonts: ["TeX"] },
+                          "HTML-CSS":pace   &#09;   -   수평탭
+                          space &#10;   -   줄 삽입
+                          - &#11;-&#31; -   사용하지 않음
+                          space &#32;   -   여백
+                          ! &#33;   -   느낌표
+                          " &#34;   &quot;  따옴표
+                          # &#35;   -   숫자기호
+                          $ &#36;   -   달러{ availableFonts: ["TeX"] },
                           displayAlign: "center"
                         } ); // added
   </script>

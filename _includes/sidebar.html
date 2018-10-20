@@ -14,9 +14,9 @@
         </a>
       </div>
       <div class="sidebar-personal-info-section">
-        <p>{{ site.author.description }}</p>
+        <p>{{ site.author.description }}</p>  <!--_config.yml-->
       </div>
-      {% if site.author.contact %}
+      {% if site.author.contact %} <!-- author.contact exists -->
       {% assign len = site.author.contact | size %}
       {% assign current_index = 0 %}
       <div class="sidebar-personal-info-section">
