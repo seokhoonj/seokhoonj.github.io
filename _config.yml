@@ -73,7 +73,6 @@ nav:
   Presentation:
     - '/presentation/'
     - { systemtrading: '/presentation/systemtrading/' }
-    - { example01: '/presentation/example01/' }
   About:          
     - '/about/'
   Github Project: 
