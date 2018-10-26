@@ -11,14 +11,21 @@ R openxlsx package를 이용한 엑셀 문서 작업
 ---
 
 간단한 데이터 분석을 하고 나서 자료는 주로 마크다운 문서로 작성하고 있지만,  
-엑셀로 분석을 하시는 분들이 많다보니, 데이터와 Plot을 엑셀에 저장하는 경우가 있다.
+엑셀로 분석을 하시는 분들이 많다보니, 데이터와 Plot을 엑셀에 저장하여 제공하는 경우가 꽤 있다.  
 이를 위해 openxlsx 패키지를 이용하여,  
 1. 시트생성
-2. 각 시트마다 데이터와 plot 삽입
-등을 작업할 수 있는 함수를 간단하게 개발해 본다.  
+2. 각 시트마다 데이터와 plot 삽입  
+등의 작업을 수 있는 함수를 간단하게 개발해 보았다.  
 
 
 ``` r
+
+#============================
+#   create 
+# , sheetnames (vector)
+# , list_of_dataframe (list)
+# , list_of_plot (list)
+#============================
 sheetnames<- c("meta"
              , "Sheet1"
              , "Sheet2"
@@ -46,9 +53,9 @@ ls_of_plt <- list(NULL
                 , p_06
 )
 
-#======================
-# make an excel file
-#======================
+#============================
+# make an excel file function
+#============================
 mkxl <- function(filename, sheetnames, ls_of_df, ls_of_plt) {
   # create a workbook
   wb <- createWorkbook()
