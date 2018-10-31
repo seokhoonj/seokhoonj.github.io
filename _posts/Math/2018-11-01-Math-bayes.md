@@ -26,7 +26,7 @@ P(H|D): 사후확률(Posterior), Data가 보이고 나서의 Hypothesis가 참�
 
 ref.
 \\( \begin{align} 
-  P(H) = P(H|A)P(A) + P(H|B)P(B)
+P(H) & = P(H|A)P(A) + P(H|B)P(B)
 \\\\ & = \frac{P(A|H)P(H)}{P(A)}P(A) + \frac{P(B|H)P(H)}{P(B)}P(B) 
 \\\\ & = P(A|H)P(H) + P(B|H)P(H)
 \\\\ & = \frac{P(H|A)P(A)}{P(H)}P(H) + \frac{P(H|B)P(B)}{P(H)}P(H)
