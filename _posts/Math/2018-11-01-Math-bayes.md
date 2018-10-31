@@ -25,9 +25,9 @@ P(H|D): 사후확률(Posterior), Data가 보이고 나서의 Hypothesis가 참�
 \\( \text{데이터가 발견된 상태에서 가설이 참일 확률} \times \text{데이터가 발견될 확률} = \text{가설이 참일 때 데이터가 발견될 확률} \times \text{가설이 참일 확률} \\)
 
 ref.
-\\( P(H) = P(H|A)P(A) + P(H|B)P(B) \\)
 \\( \begin{align} 
-       = \frac{P(A|H)P(H)}{P(A)}P(A) + \frac{P(B|H)P(H)}{P(B)}P(B) 
+  P(H) = P(H|A)P(A) + P(H|B)P(B)
+\\\\ & = \frac{P(A|H)P(H)}{P(A)}P(A) + \frac{P(B|H)P(H)}{P(B)}P(B) 
 \\\\ & = P(A|H)P(H) + P(B|H)P(H)
 \\\\ & = \frac{P(H|A)P(A)}{P(H)}P(H) + \frac{P(H|B)P(B)}{P(H)}P(H)
 \\\\ & = P(H|A)P(A) + P(H|B)P(B)
