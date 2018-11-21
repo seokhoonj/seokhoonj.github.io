@@ -229,6 +229,6 @@ rsconnect/
 *.xlsx
 *.xlsm
 *.xlsb
-#*.pdf
+# *.pdf
 
 *.ipynb
