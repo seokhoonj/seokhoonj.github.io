@@ -19,11 +19,10 @@ $$ | \vec{x} \cdot \vec{y} | \leq \| \vec{x} \| \| \vec{y}\| $$
 $$ | \vec{x} \cdot \vec{y} | = \| \vec{x} \| \| \vec{y}\| \Longleftrightarrow \vec{x} = c \vec{y} $$
 
 ### 벡터의 길이와 그 제곱은 다음과 같다.
-$$ \| \vec{v} \| = \sqrt{v_1^2 + v_2^2 + \cdots + v_n^2} \geq 0 $$
+$$ \| \vec{v} \| = \sqrt{v_1^2 + v_2^2 + \cdots + v_n^2} \geq 0 \\
+   \| \vec{v} \|^2 = \vec{v} \cdot \vec{v} $$
 
-$$ \| \vec{v} \|^2 = \vec{v} \cdot \vec{v} $$
-
-$$ \|v\|^2\|w\|^2  \geq |v \cdot w|^2 $$ $$
+$$ \|v\|^2\|w\|^2  \geq |v \cdot w|^2 $$
 
 $$ \begin{align}
      p(t) & = \| t \vec{y} - \vec{x} \|^2 ( \geq 0 ) \\
