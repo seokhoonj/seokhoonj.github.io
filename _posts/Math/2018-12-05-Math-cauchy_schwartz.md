@@ -31,7 +31,7 @@ $$ \begin{align}
 ### 계산을 간단히 하기위해 치환하면, 
 $$ p(t) = at^2 -bt + c \geq 0 $$
 
-### $$ t $$ 에 $$ \frac{a}{2a} $$를 대입하면,
+### $$ t $$ 에 $$ \frac{b}{2a} $$를 대입하면,
 $$ \begin{align}
 p( \frac{b}{2a} ) & = a \frac{b^2}{4a^2} - b \frac{b}{2a} + c \geq 0 \\
                              & \Leftrightarrow \frac{b^2}{4a} - \frac{2b^2}{4a} + c \geq 0 \\
