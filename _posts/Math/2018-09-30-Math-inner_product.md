@@ -3,7 +3,7 @@ layout: post
 title: 벡터의 내적
 category: Math
 tags: [Math, 벡터, 내적]
-published: true
+published: false
 comments: false
 ---
 
