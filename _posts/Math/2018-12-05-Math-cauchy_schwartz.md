@@ -1,17 +1,18 @@
 ---
 layout: post
-title: 코시-슈바르츠 부등식(cachy-schwartz inequality)
+title: 코시-슈바르츠 부등식(cauchy-schwartz inequality)
 category: Math
-tags: [Math, 코시-슈바르츠, cachy-schwartz]
+tags: [Math, 코시-슈바르츠, cauchy-schwartz]
 published: true
 comments: true
 ---
 
-코시 슈바르츠 부등식 (cauchy-schwartz inequality) 증명
+코시-슈바르츠 부등식 (cauchy-schwartz inequality) 증명
 ---
 
 ### 두 벡터의 내적의 절대값은 두 벡터의 길이의 곱보다 작거나 같다.
-$$ | \vec{x} \cdot \vec{y} | \leq \| \vec{x} \| \| \vec{y}\|, \vec{x}, \vec{y} \in \mathbb{R}^n (non-zero vector) $$
+$$ \vec{x}, \vec{y} \in \mathbb{R}^n \text{(, non-zero vector)} $$
+$$ | \vec{x} \cdot \vec{y} | \leq \| \vec{x} \| \| \vec{y}\| $$
 
 ### 벡터 x가 벡터 y의 스칼라배인 경우에만(즉, 동일선상에 있는 경우에만) 등호가 성립한다.
 $$ | \vec{x} \cdot \vec{y} | = \| \vec{x} \| \| \vec{y}\| \Longleftrightarrow \vec{x} = c \vec{y} $$
@@ -30,7 +31,7 @@ $$ \begin{align}
 ### 계산을 간단히 하기위해 치환하면, 
 $$ p(t) = at^2 -bt + c \geq 0 $$
 
-### t에 $$ \frac{a}{2a} $$를 대입하면,
+### $$ t $$ 에 $$ \frac{a}{2a} $$를 대입하면,
 $$ \begin{align}
 p( \frac{b}{2a} ) & = a \frac{b^2}{4a^2} - b \frac{b}{2a} + c \geq 0 \\
                              & \Leftrightarrow \frac{b^2}{4a} - \frac{2b^2}{4a} + c \geq 0 \\
