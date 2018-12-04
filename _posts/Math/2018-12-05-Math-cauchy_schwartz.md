@@ -11,7 +11,7 @@ comments: true
 ---
 
 ### 두 벡터의 내적의 절대값은 두 벡터의 길이의 곱보다 작거나 같다.
-$$ \vec{x}, \vec{y} \in \mathbb{R}^n \text{(, non-zero vector)} $$
+$$ \vec{x}, \vec{y} \in \mathbb{R}^n \text{(, non-zero vector)} $$  
 $$ | \vec{x} \cdot \vec{y} | \leq \| \vec{x} \| \| \vec{y}\| $$
 
 ### 벡터 x가 벡터 y의 스칼라배인 경우에만(즉, 동일선상에 있는 경우에만) 등호가 성립한다.
