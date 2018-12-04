@@ -22,8 +22,7 @@ $$ | \vec{x} \cdot \vec{y} | = \| \vec{x} \| \| \vec{y}\| \Longleftrightarrow \v
 $$ \| \vec{v} \| = \sqrt{v_1^2 + v_2^2 + \cdots + v_n^2} \geq 0 \\
    \| \vec{v} \|^2 = \vec{v} \cdot \vec{v} $$
 
-$$ \|v\|^2\|w\|^2  \geq |v \cdot w|^2 $$
-
+### 변수 스칼라 $$ t $$에 대한 함수를 정의해 보자. (직선의 방정식 형태)
 $$ \begin{align}
      p(t) & = \| t \vec{y} - \vec{x} \|^2 ( \geq 0 ) \\
             & = (t \vec{y} - \vec{x}) \cdot (t \vec{y} - \vec{x} ) \\
