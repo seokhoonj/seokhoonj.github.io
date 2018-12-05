@@ -12,6 +12,7 @@ comments: true
 
 ### 코사인 법칙
 $$ a = c \cdot \cos{B} + b \cdot \cos{C} \\ $$
+
 $$ a^2 = b^2 + c^2 - 2bc \cdot \cos{A} $$
 
 ### 벡터의 내적
@@ -19,6 +20,7 @@ $$ \| \vec{a} - \vec{b} \|^2 = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} 
 $$ ( \vec{a} \ - \vec{b} ) \cdot ( \vec{a} - \vec{b} ) = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\ $$
 $$ \vec{a} \cdot \vec{a} - \vec{a} \cdot \vec{b} - \vec{b} \cdot \vec{a} + \vec{b} \cdot \vec{b} = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\ $$
 $$ \| \vec{a} \|^2 - 2( \vec{a} \cdot \vec{b}) + \|b\|^2 = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos \theta \\ $$
+
 $$ \vec{a} \cdot \vec{b} =  \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\ $$
 $$ \cos{\theta} = \frac{ \vec{a} \cdot \vec{b}}{ \| \vec{a} \| \| \vec{b}\| } \\ $$
 
