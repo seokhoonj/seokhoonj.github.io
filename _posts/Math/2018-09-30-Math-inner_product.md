@@ -10,7 +10,7 @@ comments: true
 벡터의 내적
 ---
 
-### 코사인 법칙
+### 제 1, 2 코사인 법칙
 $$ a = c \cdot \cos{B} + b \cdot \cos{C} \\
 a^2 = b^2 + c^2 - 2bc \cdot \cos{A} $$
 
