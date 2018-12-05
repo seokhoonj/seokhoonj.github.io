@@ -12,7 +12,7 @@ comments: true
 
 ## 벡터의 내적
 $$ \vec{a} \cdot \vec{b} = \|\vec{a}\| \times \|\vec{b}\| \times \cos\theta = \|\vec{b}\| \times \|\vec{a}\| \times \cos\theta \\ $$
-$$ \vec{a} \cdot \vec{b} = \sqrt{\sum\_{i=1}^{D} a_i^2} \times \sqrt{\sum_{i=1}^{D} b\_i^2} \times \cos\theta = \sqrt{a^T a} \times \sqrt{b^T b} \times \cos{\theta} \\ $$
+$$ \vec{a} \cdot \vec{b} = \sqrt{\sum_{i=1}^{D} a_i^2} \times \sqrt{\sum_{i=1}^{D} b\_i^2} \times \cos\theta = \sqrt{a^T a} \times \sqrt{b^T b} \times \cos{\theta} \\ $$
 $$ \vec{a} \cdot \vec{b} = a_1 b_1 + a_2 b_2 + \ldots + a_D b_D = \sum_{i=1}^{D} a_i b_i = \left(\begin{array}{cccc} a_1 & a_2 & \ldots & a_D \end{array}\right) \left(\begin{array}{c} b_1 \\ b_2 \\ \vdots \\ b_D \end{array}\right) = a^T b \\ $$
 $$ \cos{\theta} = \frac{a^T b}{\sqrt{a^T a} \times \sqrt{b^T b}} \approx \rho (correlation) $$
 
