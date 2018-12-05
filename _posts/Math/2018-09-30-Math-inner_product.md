@@ -11,7 +11,7 @@ comments: true
 ---
 
 ### 코사인 법칙
-$$ a = c \cdot \cos{B} + b \cdot \cos{C} \\ $$
+$$ a = c \cdot cosB + b \cdot cosC \\ $$
 $$ a^2 = b^2 + c^2 - 2bc \cdot cosA $$
 
 ### 벡터의 내적
