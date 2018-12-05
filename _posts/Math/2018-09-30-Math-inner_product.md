@@ -14,14 +14,13 @@ comments: true
 $$ a = c \cdot \cos{B} + b \cdot \cos{C} \\
 a^2 = b^2 + c^2 - 2bc \cdot \cos{A} $$
 
-### 벡터의 내적
+### 벡터의 내적 (제 2 코사인 법칙을 이용하여)
 $$ \| \vec{a} - \vec{b} \|^2 = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\ $$
-$$ ( \vec{a} \ - \vec{b} ) \cdot ( \vec{a} - \vec{b} ) = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\ $$
-$$ \vec{a} \cdot \vec{a} - \vec{a} \cdot \vec{b} - \vec{b} \cdot \vec{a} + \vec{b} \cdot \vec{b} = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\ $$
-$$ \| \vec{a} \|^2 - 2( \vec{a} \cdot \vec{b}) + \|b\|^2 = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos \theta \\ $$
-
-$$ \vec{a} \cdot \vec{b} =  \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\ $$
-$$ \cos{\theta} = \frac{ \vec{a} \cdot \vec{b}}{ \| \vec{a} \| \| \vec{b}\| } \\ $$
+( \vec{a} \ - \vec{b} ) \cdot ( \vec{a} - \vec{b} ) = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\
+\vec{a} \cdot \vec{a} - \vec{a} \cdot \vec{b} - \vec{b} \cdot \vec{a} + \vec{b} \cdot \vec{b} = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\
+\| \vec{a} \|^2 - 2( \vec{a} \cdot \vec{b}) + \|b\|^2 = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos \theta \\
+\vec{a} \cdot \vec{b} =  \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\
+\cos{\theta} = \frac{ \vec{a} \cdot \vec{b}}{ \| \vec{a} \| \| \vec{b}\| } \\ $$
 
 ### Matrix notation
 $$ \vec{a} \cdot \vec{b} = \sqrt{\displaystyle\sum_{i=1}^{D} a_i^2} \times \sqrt{\displaystyle\sum_{i=1}^{D} b_i^2} \times \cos\theta = \sqrt{a^T a} \times \sqrt{b^T b} \times \cos{\theta} \\ $$
