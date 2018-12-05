@@ -11,8 +11,8 @@ comments: true
 ---
 
 ### 코사인 법칙
-$$ a = c \cdot cosB + b \cdot cosC \\ $$
-$$ a^2 = b^2 + c^2 - 2bc \cdot cosA $$
+$$ a = c \cdot \cos{B} + b \cdot \cos{C} \\ $$
+$$ a^2 = b^2 + c^2 - 2bc \cdot \cos{A} $$
 
 ### 벡터의 내적
 $$ \| \vec{a} - \vec{b} \|^2 = \| \vec{a} \|^2 + \| \vec{b} \|^2 - 2 \| \vec{a} \| \| \vec{b} \| \cos{\theta} \\ $$
