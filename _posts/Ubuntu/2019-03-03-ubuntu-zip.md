@@ -24,8 +24,8 @@ res.z01 / res.z02 / res.z03 / ... / res.zip 으로 압축된 파일이 구성된
 압축을 해제하는 방법은 다음과 같다.
 
 ```console
-$ mv res.z* ~                         # 사용자 폴더로 옮겨서 열어보면,
-$ zip -s 0 res.zip --out res-full.zip # 일단 파일을 res-full.zip이라는 파일로 통합시키고
+$ mv res.z* ~                         # 압축파일을 사용자 폴더로,
+$ zip -s 0 res.zip --out res-full.zip # res-full.zip 으로 통합
 $ unzip res-full.zip                  # res-full.zip 파일을 압축 해제
 ```
 
