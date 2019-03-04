@@ -2,7 +2,7 @@
 layout: post
 title: zip으로 분할 압축하기
 category: Ubuntu
-tags: [Ubuntu, touchscreen]
+tags: [Ubuntu, zip]
 published: true
 comments: true
 ---
