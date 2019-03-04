@@ -33,8 +33,8 @@ Section "InputClass"
         Identifier "libinput touchscreen catchall"
         MatchIsTouchscreen "on"
         MatchDevicePath "/dev/input/event*"
-        #Driver "libinput"
-        __Option "Ignore" "on"__
+        #Driver "libinput"   # disable
+        Option "Ignore" "on" # add
 EndSection
 ```
 
