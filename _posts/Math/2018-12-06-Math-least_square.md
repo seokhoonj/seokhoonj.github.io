@@ -27,5 +27,6 @@ $$  \begin{align}
 
 $$beta$$의 최소제곱추정량 $$\hat{\beta}$$  
 
-$$ (X^T X) \beta = X^T Y $$, 를 만족시키는 $$ \beta $$를 $$ \hat{\beta} $$으로 표현하면,  
-$$ \hat{\beta} = (X^T X)^{-1} X^T Y $$
+$$ \begin{align} (X^T X) \beta = X^T Y, 를 만족시키는 \beta를 \hat{\beta}으로 표현하면,  \end{align} $$
+	
+$$ \begin{align} \hat{\beta} = (X^T X)^{-1} X^T Y \end{align} $$
