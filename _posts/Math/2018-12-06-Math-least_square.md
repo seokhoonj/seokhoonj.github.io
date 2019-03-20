@@ -32,11 +32,12 @@ $$ \begin{align} (X^T X) \beta = X^T Y, 를 만족시키는 \beta를 \hat{\beta}
 $$ \begin{align} \hat{\beta} = (X^T X)^{-1} X^T Y \end{align} $$
 
 ref 1)  
-$$ k x k $$ 대칭행렬 $$ A $$ 에 대하여 해당 행렬은 $$ 1 x 1 $$ 행렬이므로,  
-$$ (Y^T A \beta)^T = \beta^T A^T Y $$
+$$ k \times k $$ 대칭행렬 $$ A $$ 에 대하여 해당 행렬은 $$ 1 \times 1 $$ 행렬이므로,  
+$$ (Y^T A \beta)^T = \beta^T A^T Y $$  
+
 ref 2)  
-이차형식의 미분: 벡터 $$ \alpha = (a_1, \cdot, a_n)^T $$ 이고 $$ k x k $$ 행렬 $$ A $$에 대하여,
-	$$ \alpha^T A \alpha $$ 를 $$ \alpha $$의 2차 형식이라 한다. 이 때,
+이차형식의 미분: 벡터 $$ \alpha = (\alpha_1, \cdots, \alpha_n)^T $$ 이고 $$ k \times k $$ 행렬 $$ A $$에 대하여,  
+$$ \alpha^T A \alpha $$ 를 $$ \alpha $$의 2차 형식이라 한다. 이 때,  
 $$  \begin{align}
 	\frac{\partial}{\partial \alpha} (\alpha^T A \alpha) = 2A \alpha
 	\end{align} $$
