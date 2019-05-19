@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Disable ubuntu touchscreen
-category: Ubuntu
-tags: [Ubuntu, touchscreen]
+category: Linux 
+tags: [ubuntu, touchscreen]
 published: true
 comments: true
 ---
