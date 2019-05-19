@@ -66,6 +66,7 @@ nav:
     - '/blog/categories/'
     - { R: '/blog/categories/#R' }
     - { Python: '/blog/categories/#Python' }
+    - { Linux: '/blog/categories/#Linux' }
     - { Vim: '/blog/categories/#Vim' }
     - { Math: '/blog/categories/#Math' }
     - { Django: '/blog/categories/#Django' }
