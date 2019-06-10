@@ -29,8 +29,7 @@ In install.packages("openssl") :
 ```
 
 이러한 문제를 해결하기 위해 다양한 방법을 강구해 보았으나 실패하였다.
-
-1. 다음은 openssl 패키지 설치 시 PKG_CFLAGS 정보이다.
+다음은 openssl 패키지 설치 시 PKG_CFLAGS 정보이다.
 
 ```console
 ** using staged installation
@@ -51,15 +50,16 @@ $LD_LIBRARY_PATH
 [4] "/usr/local/lib"
 ```
 바꿔보았지만 문제는 해결되지 않았다. 결국 openssl을 다시 설치하기로 했다.
+
 ```console
-cd /usr/src
-sudo wget https://www.openssl.org/source/openssl-1.1.1c.tar.gz
-tar -zxf openssl-1.1.1c.tar.gz
-cd openssl-1.1.1c
-sudo ./config
-sudo make
-sudo make test
-sudo make install
+$ cd /usr/src
+$ sudo wget https://www.openssl.org/source/openssl-1.1.1c.tar.gz
+$ tar -zxf openssl-1.1.1c.tar.gz
+$ cd openssl-1.1.1c
+$ sudo ./config
+$ sudo make
+$ sudo make test
+$ sudo make install
 ```
 /usr/local/lib 에 설치된 것을 알 수 있다.   
 이제 libssl.so.1.1과 libcrypto.so.1.1 심볼릭 링크를 /usr/lib 에 만들자.
@@ -72,15 +72,18 @@ $ sudo ln -s /usr/local/lib/libcrypto.so.1.1 /usr/lib/libcrypto.so.1.1
 $ sudo ln -s /usr/local/lib/libssl.so.1.1 /usr/lib/libssl.so.1.1
 ```
 실행파일도 바꿔보자.
+
 ```console
 $ sudo mv /usr/bin/openssl /root/
 $ sudo ln -s /usr/local/bin/openssl /usr/bin/openssl
 ```
+
 하지만 여전히 R에서 openssl을 설치하면 여전히 오류가 발생한다!!!  
 추가적으로 다음 경로의 실행파일도 바꿔 본다.
+
 ```console
-sudo ln -s /usr/local/bin/openssl /usr/include/openssl 
-sudo ln -s /usr/local/bin/openssl /usr/include/x86_64-linux-gnu/openssl
+$ sudo ln -s /usr/local/bin/openssl /usr/include/openssl 
+$ sudo ln -s /usr/local/bin/openssl /usr/include/x86_64-linux-gnu/openssl
 ```
 
 정상적으로 실행되는 것을 확인할 수 있다.
