@@ -49,8 +49,8 @@ comments: true
  - 검정통계량은 두 그룹의 평균의 차이를 그것의 표준오차로 나눠준 것이다. ( \\( \frac{\bar{y\_1} - \bar{y\_2}}{\sqrt{Var(\bar{y\_1} - \bar{y\_2})}} \\) )
  - 평균 차이의 분산은 \\( Var(\bar{y\_1} - \bar{y\_2}) = \frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2} \\)
  - 두 집단의 분산이 같은가 다른가에 따라 분산의 추정 방법이 달라진다.
- - 분산이 다른 경우( \\( \sigma\_1^2 = \sigma\_2^2 \\) )
- - \\( t^{\prime} = \frac{\bar{y\_1} - \bar{y\_2}}{\sqrt{\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2}} \sim t(df = \nu^{\prime}) \\)
+ - 분산이 다른 경우( \\( \sigma\_1^2 \neq \sigma\_2^2 \\) )
+ - \\( t^\prime = \frac{ \bar{y\_1} - \bar{y\_2} }{ \sqrt{\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2} } \sim t(df = \nu^\prime) \\)
 
 
 Mean-Variance Portfolio Theory
