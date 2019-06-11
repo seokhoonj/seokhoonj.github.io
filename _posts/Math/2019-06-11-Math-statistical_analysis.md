@@ -36,7 +36,7 @@ comments: true
 6. Wilcoxon Signed-Rank Test
  - one-sample t-test와 paired t-test에 해당하는 비모수 방법
  - non-parametric method (데이터의 순서에 의존)
- - 중위수(median)이 0인지 검정
+ - 중위수(median)가 0인지 검정
  - 양수인 데이터의 수와 음수인 데이터의 수가 같다면 중위수가 0
  - 부호를 무시하고 절대값으로 순위를 구한 후 +의 순위합을 구하여 귀무가설이 사실(median = 0)일 때의 순위합의 분포와 비교
  - 동일한 값들이 있으면 순서를 정하는데 문제가 생겨 exact test로 p-value를 구하지 못하고 대신 정규분포에 근사시켜 p-value를 구한다.
@@ -51,4 +51,4 @@ comments: true
  - 두 집단의 분산이 같은가 다른가에 따라 분산의 추정 방법이 달라진다.
  - 분산이 다른 경우 ( \\( \sigma\_1^2 \neq \sigma\_2^2, \ t^{\prime} = \frac{\bar{y\_1} - \bar{y\_2}}{\sqrt{\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2}}} \sim t(df = \nu^{\prime}) \\) )
  - 자유도를 조정하여 t-분포에 근사시킬 수 있다. ( \\( \nu^\prime = \frac{ (\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2})^2 }{ \frac{s\_1^4)}{n\_1^2(n\_1 - 1)} + \frac{s\_2^4)}{n\_2^2(n\_2 - 1)} }\\) )
- - 분산이 같은 경우 ( \\( \sigma\_1^2 \eq \sigma\_2^2, S\_\text{pooled_variance} = \frac{(n\_1 - 1)s\_1^2 + (n\_2 - 1)s\_2^2}{n\_1 + n\_2 - 2} \\) )
+ - 분산이 같은 경우 ( \\( \sigma\_1^2 = \sigma\_2^2, s\_\text{pooled_variance}^2 = \frac{(n\_1 - 1)s\_1^2 + (n\_2 - 1)s\_2^2}{n\_1 + n\_2 - 2} \\) )
