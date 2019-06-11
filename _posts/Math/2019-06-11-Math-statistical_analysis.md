@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Statistical Analysis 
+title: 통계분석 정리 
 category: Math 
-tags: [Statistical, Analysis]
+tags: [Statistics]
 published: true
 comments: true
 ---
