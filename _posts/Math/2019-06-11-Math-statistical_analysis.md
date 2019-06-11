@@ -38,7 +38,7 @@ comments: true
  - non-parametric method (데이터의 순서에 의존)
  - 중위수(median)이 0인지 검정
  - 양수인 데이터의 수와 음수인 데이터의 수가 같다면 중위수가 0
- - 부호를 무시하고 절대값으로 순위를 구한 후 +의 순위합을 구하여 귀무가설이 사실(media = 0)일 때의 순위합의 분포와 비교
+ - 부호를 무시하고 절대값으로 순위를 구한 후 +의 순위합을 구하여 귀무가설이 사실(median = 0)일 때의 순위합의 분포와 비교
  - 동일한 값들이 있으면 순서를 정하는데 문제가 생겨 exact test로 p-value를 구하지 못하고 대신 정규분포에 근사시켜 p-value를 구함
 
 7. Two-Sample T-Test
@@ -46,7 +46,7 @@ comments: true
  - 쌍을 이룬 두 변수 간의 차이의 평균이 0인지를 검정하는 paired t-test와는 달리 서로 독립적인 두 집단의 평균의 차이가 0인지를 검정 
  - 두 집단의 분산이 같은지 검정 (var.test) -> 분산이 다르면 Welch의 t-test -> 같으면 pooled variance를 이용한 t-test
  - 모두 독립적이므로 쌍을 이룬 paired t-test와는 다르다.
- - 검정통계량은 두 그룹의 평균의 차이를 그것의 표준오파로 나눠준 것이다. ( \\( \frac{\bar{y1} - \bar{y2}}{\sqrt{Var(\bar{y1} - \bar{y2})}} \\) )
+ - 검정통계량은 두 그룹의 평균의 차이를 그것의 표준오차로 나눠준 것이다. ( \\( \frac{\bar{y\_11} - \bar{y\_12}}{\sqrt{Var(\bar{y\_1} - \bar{y\_2})}} \\) )
 
 
 Mean-Variance Portfolio Theory
