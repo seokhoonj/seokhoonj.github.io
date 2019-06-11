@@ -47,6 +47,7 @@ comments: true
  - 두 집단의 분산이 같은지 검정 (var.test) -> 분산이 다르면 Welch의 t-test -> 같으면 pooled variance를 이용한 t-test
  - 모두 독립적이므로 쌍을 이룬 paired t-test와는 다르다.
  - 검정통계량은 두 그룹의 평균의 차이를 그것의 표준오차로 나눠준 것이다. ( \\( \frac{\bar{y\_11} - \bar{y\_12}}{\sqrt{Var(\bar{y\_1} - \bar{y\_2})}} \\) )
+ - 평균 차이의 분산은 \\( Var(\bar{y\_1} - \bar{y\_2}) = \frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2}
 
 
 Mean-Variance Portfolio Theory
