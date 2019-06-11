@@ -49,19 +49,5 @@ comments: true
  - 검정통계량은 두 그룹의 평균의 차이를 그것의 표준오차로 나눠준 것이다. ( \\( \frac{\bar{y\_1} - \bar{y\_2}}{\sqrt{Var(\bar{y\_1} - \bar{y\_2})}} \\) )
  - 평균 차이의 분산은 \\( Var(\bar{y\_1} - \bar{y\_2}) = \frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2} \\)
  - 두 집단의 분산이 같은가 다른가에 따라 분산의 추정 방법이 달라진다.
- - 분산이 다른 경우( \\( \sigma\_1^2 \neq \sigma\_2^2, \ t^{\prime} = \frac{\bar{y\_1} - \bar{y\_2}}{\sqrt{\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2}}} \sim t(df = \nu^{\prime}) \\)
-
-
-Mean-Variance Portfolio Theory
----
-
-1. sample mean
-\\( \bar{R} = \frac{\sum\_{i=1}^{n}R\_i}{n} \\)
-
-2. sample variance
-\\( \sigma = \sqrt{\frac{\sum(R\_i - \bar{R})^2}{n - 1}} \\)
-
-3. standard error
-\\( s.e. = \frac{\sqrt{\frac{\sum(R\_i - \bar{R})^2}{n - 1}}}{\sqrt{n}} \\)
-
-평균이 $\mu$ 이고 분산이 $\sigma^2$인 모집단에서 크기 $n$인 표본을 임의 추출
+ - 분산이 다른 경우 ( \\( \sigma\_1^2 \neq \sigma\_2^2, \ t^{\prime} = \frac{\bar{y\_1} - \bar{y\_2}}{\sqrt{\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2}}} \sim t(df = \nu^{\prime}) \\) )
+ - 자유도를 조정하여 t-분포에 근사시킬 수 있다. ( \\(  {\sqrt{\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2}} \\) )
