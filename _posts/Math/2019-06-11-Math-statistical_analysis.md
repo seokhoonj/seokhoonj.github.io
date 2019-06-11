@@ -22,7 +22,7 @@ comments: true
  - 표본이 모집단을 대표하는가?
 
 4. One Sample T-Test
- - $ \T분포 \Var(\bar{x}) = \frac{\sigam^2}{n} $
+ - $ \T분포 \var(\bar{x}) = \frac{\sigma^2}{n} $
  - \\( \Z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}} \\)
 
 
