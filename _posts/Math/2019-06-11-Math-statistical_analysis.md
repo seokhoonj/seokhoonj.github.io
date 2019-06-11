@@ -50,4 +50,4 @@ comments: true
  - 평균 차이의 분산은 \\( Var(\bar{y\_1} - \bar{y\_2}) = \frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2} \\)
  - 두 집단의 분산이 같은가 다른가에 따라 분산의 추정 방법이 달라진다.
  - 분산이 다른 경우 ( \\( \sigma\_1^2 \neq \sigma\_2^2, \ t^{\prime} = \frac{\bar{y\_1} - \bar{y\_2}}{\sqrt{\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2}}} \sim t(df = \nu^{\prime}) \\) )
- - 자유도를 조정하여 t-분포에 근사시킬 수 있다. ( \\(  (\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2})^2 \\) )
+ - 자유도를 조정하여 t-분포에 근사시킬 수 있다. ( \\( \frac{ (\frac{\sigma\_1^2}{n\_1} + \frac{\sigma\_2^2}{n\_2})^2 }{ \frac{s\_1^4)}{n\_1^2(n\_1 - 1)} + \frac{s\_2^4)}{n\_2^2(n\_2 - 1)} }\\) )
