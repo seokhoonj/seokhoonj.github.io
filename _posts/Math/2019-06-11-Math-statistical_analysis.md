@@ -65,3 +65,8 @@ comments: true
  - 그러나 공분산은 측정된 값의 단위(scale)에 영향을 받는데, 공분산을 두 변수의 표준편차로 나누어 (-1, 1)사이의 값을 갖도록 조정한 것이 피어슨의 상관계수로 두 변수의 *직선관계*정도를 측정한다.
  - 비모수 방법인 Kendall의 \\( \tau \\), Spearman의 \\( \rho \\)도 있다.
  - \\( cov(x,y) = \frac{\sum\_{i = 1}^{n} (x\_i - \bar{x}) (y\_i - \bar{y})}{n - 1}, \ corr(x,y) = \frac{cov(x,y)}{sd(x)sd(y)} \\) 
+ - 하나라도 결측치가 있으면 NA를 출력한다. 이를 방지하려면 다음의 코드를 사용한다. cor(data, method = "상관계수종류", use = "pairwise.complete.obs")
+ - p-value를 알고 싶다면 cor.test()를 이용한다.
+
+10. 단순회귀분석(Simple Linear Regression)
+ - \\( \hat{\beta} = \frac{cov(x, y)}{var(x)} = 4.5 \\)  
