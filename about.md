@@ -4,6 +4,6 @@ title: About
 ---
 
 <p class="message">
-  Data & modeling specialist at SCOR.</br>
+  Data & modeling specialist at SCOR.
 </p>
 
